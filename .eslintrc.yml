@@ -1,0 +1,20 @@
+env:
+  es2020: true
+extends:
+  - google
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: 11
+  sourceType: module
+plugins:
+  - '@typescript-eslint'
+rules:
+  # 80文字制御: OFF
+  max-len: ["off"]
+  # {}内の間隔を一定に保つ
+  object-curly-spacing: ["error", "always"]
+  # ダブルクォートを使用
+  quotes: ["error", "double"]
+  # redmine の型定義で引っかかるので
+  camelcase: ["off"]
+  no-unused-vars: ["off"]
