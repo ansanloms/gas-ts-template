@@ -2,13 +2,13 @@
 
 Google Apps Script (TypeScript) Template.
 
-### install
+## install
 
 ```
 npm run install
 ```
 
-### login
+## login
 
 ```
 npm run login
@@ -16,24 +16,25 @@ npm run login
 
 If never used Google Apps Script before, go to <https://script.google.com/home/usersettings> and Enable "Google Apps Script API".
 
-### create
+## create
 
 ```
 npm run create
 ```
 
-### clone
+## clone
 
 ```
 npx clasp clone --rootDir="./dist" <Project URL>
 ````
-### open
+
+## open
 
 ```
 npm run open
 ```
 
-### deploy
+## deploy
 
 ```
 npm run deploy
