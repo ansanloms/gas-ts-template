@@ -5,7 +5,7 @@ Google Apps Script (TypeScript) Template.
 ## install
 
 ```
-npm run install
+npm install
 ```
 
 ## login
