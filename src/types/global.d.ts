@@ -1,3 +1,3 @@
 declare const global: {
-  [x: string]: any;
+  [x: string]: unknown;
 };

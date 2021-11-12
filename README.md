@@ -26,7 +26,7 @@ npm run create
 
 ```
 npx clasp clone --rootDir="./dist" <Project URL>
-````
+```
 
 ## open
 
