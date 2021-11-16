@@ -20,6 +20,10 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: [".ts"],
+    modules: [path.resolve(__dirname, "src"), "node_modules"],
+  },
   plugins: [
     new ESLintPlugin(),
     new CopyPlugin({
