@@ -5,7 +5,7 @@
   "main": "src/main.ts",
   "scripts": {
     "login": "clasp login",
-    "create": "clasp create --rootDir ./dist",
+    "create": "clasp create --rootDir ./dist && cpx ./dist/.clasp.json .",
     "open": "clasp open",
     "build": "webpack",
     "push": "clasp push",
@@ -25,6 +25,7 @@
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
     "copy-webpack-plugin": "^11.0.0",
+    "cpx": "^1.5.0",
     "eslint": "^8.20.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.5.0",
